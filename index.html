@@ -7,29 +7,29 @@
     <title>Tarea sav</title>
 </head>
 <body>
-    <form class="form" action="" method="post">
+    <form class="form" action="datos.php" method="post">
         <h1 class="title">Formulario de contacto</h1>
         <p>Escribenos y en breve los pondremos en contacto contigo</p>
         
         <label for="">Nombre</label>
-        <input class="input" type="text" placeholder="Escribe tu nombre">
+        <input class="input" type="text" name="nombre" placeholder="Escribe tu nombre">
         
         <label for="">Email</label>
-        <input class="input" type="text" placeholder="Escribe tu nombre"><br></br>
+        <input class="input" type="text" name="email" placeholder="Escribe tu Email"><br></br>
 
         <label for="">Teléfono</label>
-        <input class="input" type="text" placeholder="Escribe tu nombre"><br></br>
+        <input class="input" type="text" name="telefono" placeholder="Escribe tu telesfono"><br></br>
 
         <label for="">Sitio web</label>
-        <input class="input" type="text" placeholder="Escribe tu nombre">
+        <input class="input" type="text" name="sitio_web" placeholder="Escribe un sitio web">
 
         <label for="">Asunto</label>
-        <input class="input" type="text" placeholder="Escribe tu nombre">
+        <input class="input" type="text" name="asunto" placeholder="Escribe tu asunto">
 
         <label for="">Mensaje</label>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Deja quí tu comentario..."></textarea>
+        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Deja quí tu comentario..."></textarea>
 
-        <button class="boton" type="submit">Enviar</button>
+        <input type="submit" value="Enviar">
 
     </form>
 </body>
